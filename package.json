@@ -1,6 +1,6 @@
 {
   "name": "motley-buffet",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Buffet (static file server) adapter for Motley",
   "main": "_codemap",
   "repository": {

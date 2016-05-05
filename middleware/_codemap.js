@@ -1,8 +1,8 @@
 module.exports = {
   _ns: 'motley',
-  _folder: 'middleware',
 
-  'buffet': require('./buffet'),
-  'handlers[-60]': '#middleware.buffet',
-  'buffet_instance': null
+  'middleware.buffet': require('./buffet'),
+  'middleware.closeBuffet': require('./closeBuffet'),
+  'middleware[-60]': '#middleware.buffet',
+  'middleware.buffet_instance': null
 }
